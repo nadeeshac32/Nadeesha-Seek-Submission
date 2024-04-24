@@ -62,7 +62,7 @@ Use this link to see a demo [Screen recording](https://drive.google.com/file/d/1
 - [x] Password to unzip the project. I have shared this with the email
 
  ## Running Xcode Project and General changes
- - Unzip the Seek.zip to extract the xcode project
+ - Unzip the Nadeesha-Seek-Submission.zip to extract the xcode project
  - Open the project(.xcworkspace file) in Xcode
  - Now you can simply run the project in simulator
  - Do a pod install if necessary
