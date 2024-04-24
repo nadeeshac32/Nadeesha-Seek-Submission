@@ -86,7 +86,7 @@ Specifics                 | Details
 --------------------------|------------------------------------------------------------------------
 | Architecture - MVVM-C   | Used RxSwift to bind View and ViewModel. Coodinators are responsible for navigation flow.
 | Base classes            | `Common/Components`, `Common/Architectural` folders - All the base & generic classes & Re-usable common components reside within this folder. All the other classes are inherited from the classes which are within this folders
-| Networking - Alamofire  | `Network` folders<br/>- `Common\Network\HTTPService.swift` - Actual network reqeust handling<br/>- `Common\Network\HTTPMockService.swift` - mock network reqeust handling<br/>- `Network\APIProtocols` folder - API definitions that the App will be consume. <br/>
+| Networking - Alamofire  | `Network` folders<br/>- `Common\Network\HTTPService.swift` - Actual network reqeust handling<br/>- `Common\Network\HTTPMockService.swift` - mock network reqeust handling<br/>- `Network\APIProtocols` folder - API definitions that the App will be consuming. <br/>
 | Models                  | `Models` folder - All the models used by the app reside within this folder. Almost all the models which are passed by the Network Services are extending `BaseModel` class
 | Views                   | `Views` folder - All the UI elements reside within this folder. (Storyboards, ViewControllers, ViewModels, App TableView Cells)
 | App Config                 | Used a simple Singleton class to keep the configuration parameters. Most of the values that are used by AppConfig are stored in `Configuration.plist`
