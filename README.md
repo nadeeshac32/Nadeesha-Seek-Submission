@@ -70,8 +70,8 @@ Use this link to see a demo [Screen recording](https://drive.google.com/file/d/1
 ## Test accounts to Sign In to the app
 
 #### Normal sign in
-- Username: You can enter a valid mobile number or en email as the username field
-- Password: Password could be anything.
+- Username: You can enter a valid mobile number or an email as the username field.
+- Password: Password could be anything to be used for Mock Sign In.
 - Once a valid username and a password is entered the 'Sign In' button will be enabled.
 - Since I'm using a Mock API client, it will bypass the actual API call and return with Mock result.
 
